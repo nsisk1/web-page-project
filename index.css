@@ -1,0 +1,37 @@
+<p class="paragraph">p.speacial {
+    color: 1F456E;
+}
+
+<link href='https://fonts.googleapis.com/css?family=Big Shoulders Text' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Big Shoulders Text';
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+    a:link {
+        color: #FF0000;
+    }
+
+    /* unvisited link */
+    a:visited {
+        color: #00FF00;
+    }
+
+    /* visited link */
+    a:hover {
+        color: #FF00FF;
+    }
+
+    /* mouse over link */
+    a:active {
+        color: #0000FF;
+    }
+
+    /* selected link */
