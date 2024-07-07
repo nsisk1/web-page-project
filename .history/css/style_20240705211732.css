@@ -1,17 +1,9 @@
 body {
     background-color: black;
-    color: red
+    color: blue
 }
 
 h1 {
     background-color: black;
     color: chartreuse;
-}
-
-h2 {
-    color: orange;
-}
-
-footer {
-    color: blue;
 }

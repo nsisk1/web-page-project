@@ -1,0 +1,13 @@
+{
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.defaultFormatter": "NikolaosGeorgiou.html-fmt-vscode",
+    "editor.experimentalInlineEdit.showToolbar": "always",
+    "npm-intellisense.packageSubfoldersIntellisense": true,
+    "powershell.codeFormatting.whitespaceBetweenParameters": true,
+    "code-runner.defaultLanguage": "HTML5",
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.runInTerminal": false,
+    "code-runner.saveFileBeforeRun": true,
+    "scss.showErrors": true
+}

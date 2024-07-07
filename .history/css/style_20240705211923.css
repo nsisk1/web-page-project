@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: red
+    color: 
 }
 
 h1 {
@@ -9,9 +9,5 @@ h1 {
 }
 
 h2 {
-    color: orange;
-}
-
-footer {
-    color: blue;
+    color: orange
 }
