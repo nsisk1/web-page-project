@@ -9,5 +9,8 @@
     "code-runner.saveAllFilesBeforeRun": true,
     "code-runner.runInTerminal": false,
     "code-runner.saveFileBeforeRun": true,
-    "scss.showErrors": true
+    "scss.showErrors": true,
+    "[php]": {
+        "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+    }
 }

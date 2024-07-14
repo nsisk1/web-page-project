@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = "nsisk1@student.dallascollege.edu"; // Replace with your email address
+    $to = "your-email@example.com"; // Replace with your email address
     $from = $_POST['email'];
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
@@ -10,9 +10,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (mail($to, $subject, $message, $headers)) {
         // Redirect to thank you page
-        header("Location: success.html");
+        header("Location: thank_you.php");
         exit();
     } else {
         echo "Mail sending failed.";
     }
 }
+?>

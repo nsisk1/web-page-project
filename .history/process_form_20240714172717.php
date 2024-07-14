@@ -10,9 +10,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (mail($to, $subject, $message, $headers)) {
         // Redirect to thank you page
-        header("Location: success.html");
+        header("Location: sus");
         exit();
     } else {
         echo "Mail sending failed.";
     }
 }
+?>
