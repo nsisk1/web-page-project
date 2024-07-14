@@ -1,23 +1,12 @@
 <!DOCTYPE html>
 <html lang="En">
     <head>
-        <link rel="stylesheet" href="css/style.css">
         <title>Contact Us</title>
     </head>
     <body>
-        <h1>Contact Us</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="faq.html">FAQ</a>
-        </nav>
         <fieldset>
             <legend>Please send us a message</legend>
-            <form
-                id="myMailerForm"
-                action="mailto:nsisk1@student.dallascollege.edu"
-                action="success.html"
-                method="post"
-            >
+            <form id="myMailerForm" action="mailto:nsisk1@student.dallascollege.edu" method="post">
                 <label>
                     Last Name
                     <input type="text" name="lastname" required>
@@ -29,18 +18,8 @@
                 <br>
                 Please enter your email and a good number to reach you at so we can get back to you!
                 <br>
-                <input
-                    type="text"
-                    name="email"
-                    placeholder="Email"
-                    required
-                >
-                <input
-                    type="text"
-                    name="phone"
-                    placeholder="Phone Number"
-                    required
-                >
+                <input type="text" name="email" placeholder="Email" required>
+                <input type="text" name="phone" placeholder="Phone Number" required>
                 <br>
                 Please make your selection below as to why you are contacting us.
                 <br>
@@ -55,31 +34,15 @@
                 <br>
                 <textarea name="textbox">Put your questions and comments here</textarea>
                 <br>
-                Don't forget your FREE gift!
                 <select name="gift">
-                    <option>T-shirt</option>
-                    <option>Pictures</option>
-                    <option>Not Interested</option>
+                    <option value="gift" placeholder>T-shirt</option>
                 </select>
                 <br>
                 <input type="reset" value="Clear form">
                 <br>
                 If you have double checked your information and it is correct then check the box and press SUBMIT.
                 <input type="checkbox" name="info" required>
-                <input
-                    type="submit"
-                    value="Submit"
-                    onclick="window.location"
-                    href="success.html"
-                >
-            </fieldset>
-        </form>
-        <footer position="absolute">
-            <a href="https://www.dallascollege.edu" target="blank">DallasCollegeHomepage</a>
-            <a href="contact-us.html" target="blank">
-                Contact Us
-            </a>
-            <a href="mailto:nsisk1@student.dallascollege.edu">Webmaster</a>
-        </footer>
-    </body>
-</html>
+                <input type="submit" value="Submit">
+            </form>
+        </body>
+    </html>
