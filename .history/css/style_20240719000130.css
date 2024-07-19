@@ -5,13 +5,11 @@ body {
 
 h1 {
     background-color: #d4e4f7;
-    color: #236ab9;
+    color: chartreuse;
 }
 
 h2 {
-    background-color: #fc7307;
-    color: #341c09;
-
+    color: orange;
 
 form{
     width: 250px
@@ -22,5 +20,4 @@ form{
 
 footer {
     color: blue;
-
 }

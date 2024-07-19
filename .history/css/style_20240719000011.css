@@ -1,0 +1,23 @@
+body {
+    background-color: d4;
+    color: red
+}
+
+h1 {
+    background-color: black;
+    color: chartreuse;
+}
+
+h2 {
+    color: orange;
+
+form{
+    width: 250px
+    ;
+    text-align: center;
+}
+}
+
+footer {
+    color: blue;
+}
