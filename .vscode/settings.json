@@ -12,5 +12,10 @@
     "scss.showErrors": true,
     "[php]": {
         "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
-    }
+    },
+    "json.format.enable": false,
+    "gitHistory.logLevel": "None",
+    "gitHistory.pageSize": 0,
+    "css.completion.triggerPropertyValueCompletion": true,
+    "gitlens.visualHistory.allowMultiple": false
 }
