@@ -1,0 +1,25 @@
+body {
+    background-color: #594d45;
+    color: #ac7
+}
+
+h1 {
+    background-color: #535640;
+    color: #745d46;
+}
+
+h2 {
+    background-color: #594d45;
+    color: #341c09;
+
+
+    form {
+        width: 250px;
+        text-align: center;
+    }
+}
+
+footer {
+    color: blue;
+
+}

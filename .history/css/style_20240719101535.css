@@ -1,11 +1,11 @@
 body {
-    background-color: #313831;
+    background-color: #594d45;
     color: #ac7e54
 }
 
 h1 {
     background-color: #535640;
-    color: #ac7e54;
+    color: #745d46;
 }
 
 h2 {
@@ -31,14 +31,13 @@ a:link {
 }
 
 a:visited {
-    color: #655949;
+    color: pink;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: #5c5c5b
- ;
+    color: #;
     background-color: transparent;
     text-decoration: underline;
 }

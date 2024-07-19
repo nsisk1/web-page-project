@@ -5,7 +5,7 @@ body {
 
 h1 {
     background-color: #535640;
-    color: #ac7e54;
+    color: #ac;
 }
 
 h2 {
@@ -31,7 +31,7 @@ a:link {
 }
 
 a:visited {
-    color: #655949;
+    color: pink;
     background-color: transparent;
     text-decoration: none;
 }
