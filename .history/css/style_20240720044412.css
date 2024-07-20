@@ -1,0 +1,49 @@
+body {
+    background-color: #313831;
+    color: #ac7e54
+}
+
+h1 {
+    background-color: #535640;
+    color: #ac7e54;
+}
+
+h2 {
+    background-color: #594d45;
+    color: #341c09;
+
+
+    form {
+        width: 250px;
+        text-align: center;
+    }
+}
+
+footer {
+    color: blue;
+
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #655949;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5c5c5b;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #5c5c5b;
+    background-color: transparent;
+    text-decoration: underline;
+}
