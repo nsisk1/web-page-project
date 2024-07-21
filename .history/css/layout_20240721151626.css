@@ -28,7 +28,7 @@
 }
 
 .afghan {
-    box-sizing: border-box;
+    box-sizing: b-box;
     padding: 5px;
     margin: 5px;
     clear: left;
@@ -41,7 +41,6 @@
     padding: 15px;
     margin: 25px;
     width: auto;
-    height: fit-content;
 }
 
 .education {
