@@ -28,10 +28,7 @@
 }
 
 .afghan {
-    box-sizing: border-box;
-    padding: 20px;
-    margin: 20px;
-    clear: left;
+    boxclear: left;
     float: left;
     display: block;
 }
