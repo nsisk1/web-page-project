@@ -28,7 +28,7 @@
 }
 
 .afghan {
-    box-sizing: content-box;
+    box-sizing: border-boxc;
     padding: 20px;
     margin: 20px;
     clear: left;
@@ -40,5 +40,6 @@
     box-sizing: border-box;
     padding: 15px;
     margin: 25px;
-    width: auto;
+    width: 70%;
+
 }
