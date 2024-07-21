@@ -1,13 +1,12 @@
-.header {
-    text-align: center;
-    padding: 30px;
-}
+/* Set nav to sticky or fixed */
 
+/* Add a black background color to the top navigation */
 .topnav {
     background-color: #867768;
     overflow: hidden;
 }
 
+/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: #64674a;
@@ -17,25 +16,26 @@
     font-size: 17px;
 }
 
+/* Change the color of links on hover */
 .topnav a:hover {
     background-color: #584240;
     color: black;
 }
 
+/* Add a color to the active/current link */
 .topnav a.active {
     background-color: #64674a;
     color: #3f4129;
 }
 
-.afghan {
-    clear: left;
-    float: left;
+article:nth-child(even)>figure {
+    float: right;
 }
 
 .personalinfo {
-    box-sizing: border-box;
-    padding: 15px;
-    margin: 25px;
-    width: 70%;
-
+    box-sizing: 
+    padding: 15px
+    margin: 25px
+    width: 70% ;
+    conte
 }
