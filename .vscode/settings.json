@@ -17,5 +17,16 @@
     "gitHistory.logLevel": "None",
     "gitHistory.pageSize": 0,
     "css.completion.triggerPropertyValueCompletion": true,
-    "gitlens.visualHistory.allowMultiple": false
+    "gitlens.visualHistory.allowMultiple": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.history": true,
+        ".history": true
+    },
+    "explorerExclude.backup": {}
 }
