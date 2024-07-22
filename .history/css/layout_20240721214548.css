@@ -39,14 +39,8 @@
         box-sizing: border-box;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        height: 100%;
-        width: 300PX;
-        margin: 25px;
-        padding: 25px;
-        border: 2px navy solid;
-
+        height: 100
     }
-
     box-sizing: border-box;
     padding: 15px;
     margin: 25px;
@@ -55,10 +49,10 @@
 }
 
 .education {
-    height: 100%;
-    width: auto;
-    margin: 25px;
-    padding: 25px;
-    margin-top: 15px;
-
+        height: 100%;
+        width: auto;
+        margin: 25px;
+        padding: 25px;
+        margin-top: 15px;
+    
 }

@@ -41,9 +41,8 @@
         -moz-box-sizing: border-box;
         height: 100%;
         width: 300PX;
-        margin: 25px;
-        padding: 25px;
-        border: 2px navy solid;
+        margin: 25px
+        padding: 25px
 
     }
 
