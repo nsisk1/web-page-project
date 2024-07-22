@@ -27,11 +27,13 @@
     color: #3f4129;
 }
 
-.image {
-    box-sizing: border-box;
+.afghan {
+        box-sizing: border-box;
     padding: 5px;
     margin: 5px;
+    clear: left;
     float: left;
+    display: block;
 }
 
 .personalinfo {

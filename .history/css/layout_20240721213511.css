@@ -31,7 +31,9 @@
     box-sizing: border-box;
     padding: 5px;
     margin: 5px;
+    clear: left;
     float: left;
+    display: block;
 }
 
 .personalinfo {
