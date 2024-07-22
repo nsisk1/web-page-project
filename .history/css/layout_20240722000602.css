@@ -53,3 +53,12 @@
     width: auto;
     height: fit-content;
 }
+
+.education {
+    height: 100%;
+    width: auto;
+    margin: 25px;
+    padding: 25px;
+    margin-top: 15px;
+
+}
