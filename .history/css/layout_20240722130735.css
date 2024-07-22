@@ -43,8 +43,7 @@
         width: 300PX;
         margin: 25px;
         padding: 25px;
-        border: 20px navy solid;
-        border-radius: 100%;
+        border: 2px navy solid;
     }
 
     box-sizing: border-box;
