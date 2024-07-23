@@ -44,7 +44,6 @@
     height: fit-content;
     width: auto;
 }
-
 .image3 {
     box-sizing: border-box;
     padding: 25px;
@@ -53,7 +52,6 @@
     height: fit-content;
     width: auto;
 }
-
 .image4 {
     box-sizing: border-box;
     padding: 25px;
@@ -62,11 +60,9 @@
     height: fit-content;
     width: auto;
 }
-
 .art2 {
     box-sizing: content-box;
-    padding: 25px;
-    margin: 25px;
-    height: 515px;
-    float: left;
+    padding:25px;
+    margin: 25px
+    ;
 }
