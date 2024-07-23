@@ -46,7 +46,7 @@
         border: 20px navy solid;
         border-radius: 100%;
     display: block;
-    }
+
 
 
     aside h1,
@@ -61,6 +61,5 @@
         margin: 25px;
         width: auto;
         height: fit-content;
-    display: block;
     }
 }
