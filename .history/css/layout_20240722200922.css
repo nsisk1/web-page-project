@@ -49,17 +49,12 @@
 
 
 
-    aside h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        text-align: center;
-        box-sizing: border-box;
-        padding: 15px;
-        margin: 25px;
-        width: auto;
-        height: fit-content;
-    }
+aside h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    
 }
