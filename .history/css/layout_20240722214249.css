@@ -32,6 +32,17 @@
     padding: 5px;
     margin: 5px;
     float: left;
-    height: fit-content;
-    
+}
+
+aside {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 100%;
+    width: 300PX;
+    margin: 25px;
+    padding: 25px;
+    border: 20px navy solid;
+    border-radius: 100%;
+    display: block;
 }
