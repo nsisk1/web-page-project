@@ -34,32 +34,32 @@
     float: left;
 }
 
-aside {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    height: 100%;
-    width: 300PX;
-    margin: 25px;
-    padding: 25px;
-    border: 20px navy solid;
-    border-radius: 100%;
+    aside {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 100%;
+        width: 300PX;
+        margin: 25px;
+        padding: 25px;
+        border: 20px navy solid;
+        border-radius: 100%;
     display: block;
-}
+    }
 
 
-aside h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-align: center;
-    box-sizing: border-box;
-    padding: 15px;
-    margin: 25px;
-    width: auto;
-    height: fit-content;
+    aside h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-align: center;
+        box-sizing: border-box;
+        padding: 15px;
+        margin: 25px;
+        width: auto;
+        height: fit-content;
     display: block;
-}
+    }
 }
