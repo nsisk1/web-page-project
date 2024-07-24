@@ -29,7 +29,6 @@
     float: left;
     height: 550px;
     width: 400px;
-    overflow: hidden;
 }
 
 .image2 {
@@ -57,12 +56,4 @@
     float: left;
     height: fit-content;
     width: auto;
-}
-aside h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-align: center;
 }
