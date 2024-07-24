@@ -35,7 +35,7 @@
     height: fit-content;
     width: auto;
 }
-
+<div class="clear"></div>
 .image2 {
     box-sizing: border-box;
     padding: 25px;
@@ -71,3 +71,4 @@
     float: left;
     color: #585436;
 }
+<div class="clear"></div>
