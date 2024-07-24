@@ -32,13 +32,10 @@
     display: block;
     clear: both;
 }
-.art {
+.art2 {
     box-sizing: border-box;
     height: 400px;
     width: 1360px;
-    padding: 15px;
-    margin: 15;
-    clear: both;
 }
 
 .figure {

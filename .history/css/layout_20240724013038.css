@@ -22,7 +22,7 @@
     color: #3f4129;
 }
 
-.image {
+.image1 {
     box-sizing: content-box;
     padding: 5px;
     margin: 5px;
@@ -32,13 +32,37 @@
     display: block;
     clear: both;
 }
-.art {
+
+.image2 {
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+    height: fit-content;
+    width: auto;
+}
+
+.image3 {
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+    height: fit-content;
+    width: auto;
+}
+
+.image4 {
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+    height: fit-content;
+    width: auto;
+}
+.art2 {
     box-sizing: border-box;
     height: 400px;
     width: 1360px;
-    padding: 15px;
-    margin: 15;
-    clear: both;
 }
 
 .figure {
