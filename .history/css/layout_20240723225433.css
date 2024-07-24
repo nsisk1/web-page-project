@@ -31,7 +31,8 @@
     height: fit-content;
     width: 900px;
     clear: both;
-    }
+    clearfix
+}
 clearfix {
     overflow: auto;
 }

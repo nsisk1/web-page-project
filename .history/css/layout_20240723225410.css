@@ -30,8 +30,7 @@
     float: right;
     height: fit-content;
     width: 900px;
-    clear: both;
-    }
+}
 clearfix {
     overflow: auto;
 }
