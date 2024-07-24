@@ -44,9 +44,7 @@
 .figure {
     box-sizing: border-box;
     height: 400px;
-    width: 300px;
-    padding: 10px;
-    margin: 5px;
+    width: auto;
     float: left;
-
+    
 }
