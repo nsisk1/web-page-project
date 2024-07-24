@@ -35,8 +35,18 @@
 .art {
     box-sizing: border-box;
     height: 400px;
-    width: auto
+    width: 
     padding: 15px;
     margin: 15;
     clear: both;
+}
+
+.figure {
+    box-sizing: border-box;
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    float: left;
+
 }
