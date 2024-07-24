@@ -29,6 +29,7 @@
     float: inline-start;
     height: 550px;
     width: 400px;
+    overflow: hidden;
     display: block;
     clear: both;
 }
@@ -59,6 +60,7 @@
     height: fit-content;
     width: auto;
 }
+
 art2 {
     box-sizing: border-box;
     height: 400px;
