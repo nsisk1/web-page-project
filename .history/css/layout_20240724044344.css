@@ -35,7 +35,8 @@
 .art {
     box-sizing: border-box;
     height: 400px;
-    width: auto;
+    width: auto
+    padding 15px;
     margin: 15;
     clear: both;
 }
