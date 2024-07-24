@@ -26,7 +26,7 @@
     box-sizing: content-box;
     padding: 5px;
     margin: 5px;
-    float: inline-start;
+    float: 
     height: 550px;
     width: 400px;
     overflow: hidden;
@@ -69,5 +69,4 @@ h6 {
 
 art2 {
     height: 400px;
-    width: 1360px;
 }
