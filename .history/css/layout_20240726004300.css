@@ -1,0 +1,66 @@
+.topnav {
+    background-color: #867768;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #64674a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #584240;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #64674a;
+    color: #3f4129;
+}
+
+.image {
+    box-sizing: content-box;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    height: auto;
+    width: auto;
+    display: block;
+    clear: both;
+}
+
+.art {
+    box-sizing: border-box;
+    height: 400px;
+    width: auto;
+    margin: 15;
+    clear: both;
+}
+
+article:nth-child(even)>figure {
+    float: right;
+}
+
+
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.column {
+    flex: 35%;
+    width: 300px;
+    border: #584240 solid;
+    justify-content: flex-start;
+}
+.row>image {
+    
+}
