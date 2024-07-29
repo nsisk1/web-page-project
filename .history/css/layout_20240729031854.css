@@ -51,16 +51,15 @@ article:nth-child(even)>figure {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    flex-flow: wrap;
 }
 
 .column {
-    flex: 0 1 auto;
     flex-wrap: wrap;
     width: 250px;
     border: #584240 solid;
     justify-content: flex-start;
 }
 .column>img {
-    flex: 0 1 auto;
     width: 240px;
 }

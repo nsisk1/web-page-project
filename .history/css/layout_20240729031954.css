@@ -54,13 +54,12 @@ article:nth-child(even)>figure {
 }
 
 .column {
-    flex: 0 1 auto;
+    flex: 0 1 a;
     flex-wrap: wrap;
     width: 250px;
     border: #584240 solid;
     justify-content: flex-start;
 }
 .column>img {
-    flex: 0 1 auto;
     width: 240px;
 }

@@ -61,6 +61,6 @@ article:nth-child(even)>figure {
     justify-content: flex-start;
 }
 .column>img {
-    flex: 0 1 auto;
+    flex: 0 1 auto
     width: 240px;
 }

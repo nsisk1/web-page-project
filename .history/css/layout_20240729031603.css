@@ -50,17 +50,15 @@ article:nth-child(even)>figure {
 .row {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .column {
-    flex: 0 1 auto;
     flex-wrap: wrap;
     width: 250px;
     border: #584240 solid;
     justify-content: flex-start;
 }
 .column>img {
-    flex: 0 1 auto;
     width: 240px;
 }
