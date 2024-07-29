@@ -49,13 +49,13 @@ article:nth-child(even)>figure {
 
 .row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
 }
 
 .column {
     flex-wrap: nowrap;
-    width: 250px;
+    width: 250;
     border: #584240 solid;
     justify-content: flex-start;
 }

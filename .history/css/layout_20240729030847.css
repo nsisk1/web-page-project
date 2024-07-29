@@ -48,17 +48,19 @@ article:nth-child(even)>figure {
 
 
 .row {
+    display: -webkit-flex;
     display: flex;
-    flex-direction: row;
+    -webkit-flex-direction: column;
+    flex-direction: column;
     justify-content: flex-start;
 }
 
 .column {
-    flex-wrap: nowrap;
-    width: 250px;
+    flex-wrap: wrap;
+    width: auto;
     border: #584240 solid;
     justify-content: flex-start;
 }
 .column>img {
-    width: 240px;
+    width: 40px;
 }
