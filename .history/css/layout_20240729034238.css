@@ -57,10 +57,12 @@ article:nth-child(even)>figure {
 
 .column {
     flex: 0 1 auto;
+    flex-wrap: wrap;
     width: 250px;
     border: #584240 solid;
-    align-self: auto;
+    align-self: ;
 }
 .column>img {
+    flex: 0 1 auto;
     width: 240px;
 }

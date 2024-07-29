@@ -52,15 +52,16 @@ article:nth-child(even)>figure {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    align-content: flex-start;
 }
 
 .column {
     flex: 0 1 auto;
+    flex-wrap: wrap;
     width: 250px;
     border: #584240 solid;
-    align-self: auto;
+    justify-content: flex-start;
 }
 .column>img {
+    flex: 0 1 auto;
     width: 240px;
 }

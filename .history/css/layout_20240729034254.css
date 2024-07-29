@@ -62,5 +62,6 @@ article:nth-child(even)>figure {
     align-self: auto;
 }
 .column>img {
+    flex: 0 1 auto;
     width: 240px;
 }
