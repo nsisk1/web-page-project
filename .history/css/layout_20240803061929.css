@@ -95,6 +95,4 @@ section {
     margin: 1em;
     border-right: 2px solid #584240
 }
-aside {
-    grid-area: aside;
-}
+aside

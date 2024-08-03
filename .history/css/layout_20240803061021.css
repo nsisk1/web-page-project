@@ -66,35 +66,4 @@ article:nth-child(even)>figure {
 }
 
 
-body {
-    display:  grid;
-    grid-template-rows: [header-start] 1fr [content-start] auto [footer-start] 1fr;
-    grid-template-columns: [nav] 1fr [section] 3fr [aside] 1fr;
-    grid-template-areas: 
-        "head head head"
-        "nav section aside"
-        "footer footer footer";
-}
-header {
-    grid-area: head;
-}
-footer {
-    grid-area: foot;
-}
-nav {
-    grid-area: nav;
-    padding: 2em;
-    border-right: 2px solid #584240;
-}
-nav li {
-    list-style: none;
-}
-section {
-    grid-area: section;
-    padding: 2em;
-    margin: 1em;
-    border-right: 2px solid #584240
-}
-aside {
-    grid-area: aside;
-}
+body
