@@ -77,7 +77,7 @@ body {
     grid-template-areas:
         "head head head"
         "nav section aside"
-        "nav footer footer";
+        "footer footer footer";
 }
 
 header {
