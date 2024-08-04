@@ -72,16 +72,17 @@ article:nth-child(even)>figure {
 
 body {
     display: grid;
-    grid-template-rows: [nav-start] 1fr [content-start] auto [footer-start] 1fr;
+    grid-template-rows: [header-start] 1fr [content-start] auto [footer-start] 1fr;
     grid-template-columns: [nav] 1fr [section] 3fr [aside] 1fr;
     grid-template-areas:
-        "header header header"
+        "head head head"
         "nav section aside"
-        "foot foot foot";
+        "nav footer footer";
 }
 
 header {
     grid-area: head;
+    margin-right: max-width: 100;;
 }
 
 footer {
@@ -101,7 +102,6 @@ section {
     padding: 5px;
     margin: 5px;
     border-right: 2px solid #584240;
-    min-width: 55%;
 }
 
 aside {

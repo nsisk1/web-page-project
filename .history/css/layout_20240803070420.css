@@ -66,18 +66,16 @@ article:nth-child(even)>figure {
     width: 240px;
 }
 
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     display: grid;
-    grid-template-rows: [nav-start] 1fr [content-start] auto [footer-start] 1fr;
-    grid-template-columns: [nav] 1fr [section] 3fr [aside] 1fr;
+    grid-template-rows: [header-start] 1fr [content-start] auto [footer-start] 1fr;
+    grid-template-columns: [nav]  [section] 55% [aside] auto;
     grid-template-areas:
-        "header header header"
+        "head head head"
         "nav section aside"
-        "foot foot foot";
+        "nav footer footer";
 }
 
 header {
@@ -90,18 +88,17 @@ footer {
 
 nav {
     grid-area: nav;
-    padding: 10px;
-    margin: 15px;
+    padding: 2em;
+    margin: 1em;
     border-right: 2px solid #584240;
 }
 
 
 section {
     grid-area: section;
-    padding: 5px;
-    margin: 5px;
+    padding: 2em;
+    margin: 1em;
     border-right: 2px solid #584240;
-    min-width: 55%;
 }
 
 aside {
