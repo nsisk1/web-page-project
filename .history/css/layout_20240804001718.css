@@ -72,7 +72,7 @@ article:nth-child(even)>figure {
 
 body {
     display: grid;
-    grid-template-rows: [head-start] 1fr [content-start] auto [footer-start] 1fr;
+    grid-template-rows: [navhead-start] 1fr [content-start] auto [footer-start] 1fr;
     grid-template-columns: [nav] 1fr [section] 3fr [aside] 1fr;
     grid-template-areas:
         "head head head"
