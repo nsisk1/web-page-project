@@ -116,9 +116,30 @@ img {
     max-width: 100%;
 }
 
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 4px;
+    background-color: yellow;
+}
+
+th {
+    color: red;
+}
+
+td.data {
+    text-align: center;
+}
+
+td {
+    color: blue;
+}
+
 h1 {
     font-family: "Times New Roman", Times, serif;
     font-size: 5vw;
+    color: rgba(255, 205, 92, 1);
     text-align: center;
     text-shadow: 3px 2px 5px black;
     padding: 3vw;
@@ -130,7 +151,18 @@ p {
 }
 
 header {
+    background: rgb(77, 136, 255);
     width: 100%;
+}
+
+
+.quote {
+    max-width: 35%;
+}
+
+blockquote::first-line {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 3.5vw;
 }
 
 nav li {

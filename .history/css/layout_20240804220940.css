@@ -116,9 +116,23 @@ img {
     max-width: 100%;
 }
 
+
+
+
+
+
+td.data {
+    text-align: center;
+}
+
+td {
+    color: blue;
+}
+
 h1 {
     font-family: "Times New Roman", Times, serif;
     font-size: 5vw;
+    color: rgba(255, 205, 92, 1);
     text-align: center;
     text-shadow: 3px 2px 5px black;
     padding: 3vw;
