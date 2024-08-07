@@ -22,14 +22,22 @@ nav a.active {
     color: #3f4129;
 }
 
-image {
-    box-sizing: border-box;
+.image {
+    box-sizing: content-box;
     padding: 5px;
     margin: 5px;
     float: left;
     height: auto;
     width: auto;
     display: block;
+    clear: both;
+}
+
+.art {
+    box-sizing: border-box;
+    height: 400px;
+    width: auto;
+    margin: 15px;
     clear: both;
 }
 
@@ -71,8 +79,7 @@ body {
         'head head head'
         'nav, section, aside'
         'foot foot foot';
-    g
-    }
+}
 
 header {
     grid-area: head;

@@ -22,14 +22,22 @@ nav a.active {
     color: #3f4129;
 }
 
-image {
-    box-sizing: border-box;
+.image {
+    box-sizing: content-box;
     padding: 5px;
     margin: 5px;
     float: left;
     height: auto;
     width: auto;
     display: block;
+    clear: both;
+}
+
+.art {
+    box-sizing: border-box;
+    height: 400px;
+    width: auto;
+    margin: 15px;
     clear: both;
 }
 
@@ -63,7 +71,6 @@ article:nth-child(even)>figure {
 }
 
 body {
-    display: ms-grid;
     display: grid;
     grid-template-rows: [header-start] 1fr [content-start] auto [footer-start] 1fr;
     grid-template-columns: [nav] 1fr [section] 3fr [aside] 1fr;
@@ -71,8 +78,7 @@ body {
         'head head head'
         'nav, section, aside'
         'foot foot foot';
-    g
-    }
+}
 
 header {
     grid-area: head;
