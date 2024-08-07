@@ -61,6 +61,7 @@ article:nth-child(even)>figure {
 * {
     box-sizing: border-box;
 }
+
 body {
     display: ms-grid;
     display: grid;
@@ -70,7 +71,7 @@ body {
         'head head head'
         'nav, section, aside'
         'foot foot foot';
-}
+    }
 
 header {
     grid-area: head;

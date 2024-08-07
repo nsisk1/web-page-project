@@ -41,5 +41,8 @@
         "Packnett's",
         "Sisk",
         "topnav"
-    ]
+    ],
+    "[css]": {
+        "editor.defaultFormatter": "michelemelluso.code-beautifier"
+    }
 }
