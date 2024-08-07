@@ -17,13 +17,13 @@
     "explorerExclude.backup": {},
     "files.autoSave": "onWindowChange",
     "files.exclude": {
-        "**/.DS_Store": true,
         "**/.git": true,
-        "**/.hg": true,
-        "**/.history": true,
         "**/.svn": true,
+        "**/.hg": true,
         "**/CVS": true,
+        "**/.DS_Store": true,
         "**/Thumbs.db": true,
+        "**/.history": true,
         ".history": true
     },
     "gitHistory.logLevel": "None",
