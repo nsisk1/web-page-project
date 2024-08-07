@@ -61,7 +61,6 @@ article:nth-child(even)>figure {
 * {
     box-sizing: border-box;
 }
-
 body {
     display: grid;
     grid-template-rows: [header-start] 1fr [content-start] auto [footer-start] 1fr;
@@ -98,14 +97,6 @@ nav li {
     margin: 5px;
     border-right: 2px solid #584240;
     min-width: 55%;
-}
-
-.image {
-    float: left;
-}
-
-.clearFloats {
-    clear: both;
 }
 
 aside {

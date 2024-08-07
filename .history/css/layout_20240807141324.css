@@ -104,10 +104,6 @@ nav li {
     float: left;
 }
 
-.clearFloats {
-    clear: both;
-}
-
 aside {
     grid-area: aside;
 }
