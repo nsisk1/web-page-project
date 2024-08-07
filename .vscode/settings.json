@@ -33,5 +33,13 @@
     "npm-intellisense.packageSubfoldersIntellisense": true,
     "powershell.codeFormatting.whitespaceBetweenParameters": true,
     "scss.showErrors": true,
-    "workbench.editor.revealIfOpen": true
+    "workbench.editor.revealIfOpen": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "cSpell.words": [
+        "firstname",
+        "lastname",
+        "Packnett's",
+        "Sisk",
+        "topnav"
+    ]
 }

@@ -1,9 +1,9 @@
-nav {
+topnav {
     background-color: #867768;
     overflow: hidden;
 }
 
-nav a {
+topnav a {
     float: left;
     color: #64674a;
     text-align: center;
@@ -12,12 +12,12 @@ nav a {
     font-size: 17px;
 }
 
-nav a:hover {
+topnav a:hover {
     background-color: #584240;
     color: black;
 }
 
-nav a.active {
+topnav a.active {
     background-color: #64674a;
     color: #3f4129;
 }

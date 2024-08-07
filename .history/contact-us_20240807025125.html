@@ -8,23 +8,22 @@
     <body>
         <section>
             <h1>Contact Us</h1>
-            <nav>
-                <a class="active" href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="faq.html">FAQ</a>
-                <a href="team.html">Our Team</a>
-                <a href="contact-us.html">Contact</a>
-            </nav>
+                 <nav class="topnav" aria->
+                    <a class="active" href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="contact-us.html">Contact</a>
+                </nav>
             <fieldset>
                 <legend>Please send us a message</legend>
                 <form id="myMailerForm" action="/web-page-project/success.html" method="get">
                     <label>
                         Last Name
-                        <input type="text" name="lastname" required aria-label="mailto">
+                        <input type="text" name="lastname" required>
                     </label>
                     <label>
                         First Name
-                        <input type="text" name="firstname" required aria-label="firstname">
+                        <input type="text" name="firstname" required>
                     </label>
                     <br>
                     Please enter your email and a good number to reach you at so we can get back to you!
@@ -53,13 +52,13 @@
                     Please make your selection below as to why you are contacting us.
                     <br>
                     Questions
-                    <input type="radio" name="reason" value="question" aria-label="radio">
+                    <input type="radio" name="reason" value="question">
                     <br>
                     Comments
-                    <input type="radio" name="reason" value="comments" aria-label="radio">
+                    <input type="radio" name="reason" value="comments">
                     <br>
                     Free gift
-                    <input type="radio" name="reason" value="order" aria-label="radio">
+                    <input type="radio" name="reason" value="order">
                     <br>
                     <label>
                         Your message goes here!
@@ -77,12 +76,12 @@
                         </select>
                     </label>
                     <br>
-                    <input type="reset" value="Clear form" aria-label="clear">
+                    <input type="reset" value="Clear form">
                     <br>
                     If you have double checked your information and it is correct then check the box and press SUBMIT.
-                    <input type="checkbox" name="info" required aria-label="checkbox">
+                    <input type="checkbox" name="info" required>
                     <br>
-                    <input type="submit" aria-label="submit">
+                    <input type="submit">
                 </form>
             </fieldset>
         </section>
