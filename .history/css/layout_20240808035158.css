@@ -5,7 +5,7 @@ nav {
 
 nav a {
     float: left;
-    color: #00000054;
+    color: #64674a54;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -13,13 +13,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #022912;
-    color: rgb(228, 212, 140);
+    background-color: #584240;
+    color: black;
 }
 
 nav a.active {
-    background-color: #302300;
-    color: #667c3e;
+    background-color: #64674a;
+    color: #3f4129;
 }
 
 image {
@@ -82,6 +82,8 @@ footer {
 
 nav {
     grid-area: nav;
+    padding: 10px;
+    margin: 15px;
     border-right: 2px solid #584240;
 }
 
