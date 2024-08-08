@@ -1,0 +1,110 @@
+nav {
+    background-color: #867768;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    color: #00000054;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #022912;
+    color: rgb(228, 212, 140);
+}
+
+nav a.active {
+    background-color: #302300;
+    color: #667c3e;
+}
+
+image {
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    height: auto;
+    width: auto;
+    display: block;
+    clear: both;
+}
+
+article:nth-child(even)>figure {
+    float: right;
+}
+
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.column {
+    flex: 0 1 auto;
+    width: 250px;
+    border: #584240 solid;
+    align-self: auto;
+}
+
+.column>img {
+    width: 240px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: [header-start] 1fr [content-start] auto [footer-start] 1fr;
+    grid-template-columns: [nav] 1fr [section] 3fr [aside] 1fr;
+    grid-template-areas:
+        'head head head'
+        'nav section aside'
+        'foot foot foot';
+}
+
+header {
+    grid-area: head;
+}
+
+footer {
+    grid-area: foot;
+}
+
+nav {
+    grid-area: nav;
+    border-right: 2px solid #584240;
+}
+
+section {
+    grid-area: section;
+    padding: 5px;
+    margin: 5px;
+    border-right: 2px solid #584240;
+    min-width: 55%;
+}
+
+.image {
+    float: left;
+}
+
+.clearFloats {
+    clear: both;
+}
+
+aside {
+    grid-area: aside;
+}
+
+header {
+    width: 100%;
+}
