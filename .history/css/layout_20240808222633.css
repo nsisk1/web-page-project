@@ -105,37 +105,3 @@ aside {
 header {
     width: 100%;
 }
-
-footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(8, 46, 24);
-    width: 100%;
-    padding: .5em;
-  }
-  
-  footer p, address {
-    color: #FFF;
-    font-size: 2vw;
-  }
-  
-  footer > nav {
-    display: flex;
-    flex-direction: column;
-    border: none;
-  }
-  
-  footer a:link {
-    color: rgb(228, 188, 57);
-  }
-  
-  footer a:visited {
-    color: rgb(253, 82, 15);
-  }
-  
-  footer a:hover {
-    color: #22f522;
-    text-decoration: none;
-    text-shadow: 3px 2px 5px rgb(231, 69, 150);
-  }
