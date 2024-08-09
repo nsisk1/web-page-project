@@ -1,0 +1,107 @@
+nav {
+    background-color: #252c25;
+    overflow: hidden;
+    grid-area: nav;
+    color: #e1d5a5;
+    border-right: 2px solid #584240;
+}
+
+nav a {
+    float: left;
+    color: #e1d5a5;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #4a5a3f;
+    color: #e1d5a5;
+}
+
+nav a.active {
+    background-color: #e1d5a5;
+    color: #4a5a3f;
+}
+
+image {
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    height: auto;
+    width: auto;
+    display: block;
+    clear: both;
+}
+
+article:nth-child(even)>figure {
+    float: right;
+}
+
+
+
+row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+column {
+    flex: 0 1 auto;
+    width: 250px;
+    border: #584240 solid;
+    align-self: auto;
+}
+
+.column>img {
+    width: 240px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: [header-start] 1fr [content-start] section [footer-start] 1fr;
+    grid-template-columns: [nav] 1fr [section] 3fr [aside] 1fr;
+    grid-template-areas:
+        'head head head'
+        'nav section aside'
+        'foot foot foot';
+}
+
+header {
+    grid-area: head;
+}
+
+footer {
+    grid-area: foot;
+}
+
+section {
+    grid-area: section;
+    padding: 5px;
+    margin: 5px;
+    border-right: 2px solid #584240;
+    min-width: 55%;
+}
+
+.image {
+    float: left;
+}
+
+.clearFloats {
+    clear: both;
+}
+
+aside {
+    grid-area: aside;
+}
+
+header {
+    width: 100%;
+}
