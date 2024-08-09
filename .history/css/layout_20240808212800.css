@@ -8,9 +8,10 @@ nav {
 
 nav a {
     float: left;
-    color: #e1d5a5;
+    color: #00000054;
     text-align: center;
     padding: 14px 16px;
+    text-decoration: none;
     font-size: 17px;
 }
 
